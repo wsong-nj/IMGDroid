@@ -1,0 +1,24 @@
+<com.squareup.okhttp.Call: com.squareup.okhttp.Response execute()> -> _SOURCE_
+<com.squareup.okhttp.Call: void enqueue(com.squareup.okhttp.Callback)> -> _SOURCE_
+<com.squareup.okhttp.Response: com.squareup.okhttp.ResponseBody body()> -> _SOURCE_
+<com.squareup.okhttp.ResponseBody: java.io.InputStream byteStream()> -> _SOURCE_
+
+<okhttp3.Call: okhttp3.Response execute()> -> _SOURCE_
+<okhttp3.Call: void enqueue(okhttp3.Callback)> -> _SOURCE_
+<okhttp3.Callback: void onResponse(okhttp3.Call,okhttp3.Response)> -> _SOURCE_
+<okhttp3.Callback: void onFailure(okhttp3.Call,java.io.IOException)> -> _SOURCE_
+<okhttp3.Response: okhttp3.ResponseBody body()> -> _SOURCE_
+<okhttp3.ResponseBody: java.io.Reader charStream()> -> _SOURCE_
+<okhttp3.ResponseBody: java.io.InputStream byteStream()> -> _SOURCE_
+
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.net.URL,java.lang.Class)> -> _SOURCE_
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.net.URL,com.fasterxml.jackson.databind.JavaType)> -> _SOURCE_
+<com.fasterxml.jackson.databind.ObjectMapper: java.lang.Object readValue(java.net.URL,com.fasterxml.jackson.core.type.TypeReference)> -> _SOURCE_
+
+<com.squareup.picasso.Picasso: com.squareup.picasso.RequestCreator load(java.lang.String)> -> _SOURCE_
+<com.squareup.picasso.Picasso: com.squareup.picasso.RequestCreator load(android.net.Uri)> -> _SOURCE_
+
+%retrofit2
+<retrofit2.Call: retrofit2.Response execute()> -> _SOURCE_
+<retrofit2.Call: void enqueue(retrofit2.Callback)> -> _SOURCE_
+<retrofit2.Response: java.lang.Object body()> -> _SOURCE_

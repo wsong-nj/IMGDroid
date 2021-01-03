@@ -1,0 +1,6 @@
+java.net.URLConnection: java.io.InputStream getInputStream()> -> _SOURCE_
+<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()> -> _SOURCE_
+<java.net.HttpURLConnection: java.io.InputStream getInputStream()> -> _SOURCE_
+
+<java.net.URL: java.net.URLConnection openConnection(java.net.Proxy)> -> _SOURCE_
+<java.net.URL: java.net.URLConnection openConnection()> -> _SOURCE_
