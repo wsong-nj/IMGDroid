@@ -3,9 +3,9 @@ MGDroid is an Eclipse project.Then please follow the following three steps to ma
 
 1.Import the project first:
 After openning Eclipse, please click: ①File ②Import ③General ④Existing Projects into Workspace;
-Then click "Next",At the line "Select root directory: Browse", you should click “Browse” and select the directory where the IMGDroid project is located , then click Finish.
+Then click "Next",At the line "Select root directory: Browse", you should click “Browse” and select the directory where the IMGDroid project is located , then click "Finish".
 
-2.Modify params:
+2.Modify parameters:
 Please open Java file "tool.Result.testall.java" in the IMGDroid to modify the variables "androidPlatform" and "FileDirectory" to your own. "androidPlatform" refers to the Android sdk platforms folder, and "FileDirectory" refers to the folder where apks(apps) to be analyzed are located.
 
 3.Run: 
