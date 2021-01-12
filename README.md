@@ -1,5 +1,5 @@
 # IMGDroid
-MGDroid is an Eclipse project.Then please follow the following three steps to make the code run:
+IMGDroid is an Eclipse project.Then please follow the following three steps to make the code run:
 
 1.Import the project first:
 After openning Eclipse, please click: ①File ②Import ③General ④Existing Projects into Workspace;
