@@ -120,7 +120,7 @@ public class EntryForAll { // Entry
 			//AndroidAnalysis analysis = new AndroidAnalysis(apkFileLocation, callGraph);
 			//analysis.Analyze();
 			TestAnalysis analysis =new TestAnalysis(info, callGraph);
-			analysis.test();
+			analysis.test(curAppName);
 
 			//ProcessManifest processMan = new ProcessManifest();
 			//processMan.loadManifestFile(apkFileLocation);
