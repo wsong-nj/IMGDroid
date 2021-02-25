@@ -52,7 +52,7 @@ public class TestAnalysis {
 	}
 
 	// public static void main(String[] args) {
-	public void test() throws IOException {
+	public void test(String name) throws IOException {
 		// String androidPlatform = "E:\\android SDK\\android-sdk-windows\\platforms";
 		// String apk = "C:\\Users\\11142\\Desktop\\APKs\\QKSMS(jb51.net).apk";
 		// String[] param = {"-android-jars", androidPlatform, "-process-dir", apk};
@@ -67,20 +67,20 @@ public class TestAnalysis {
 
 		
 		  System.out.println("-------Detecting Image Decoding Without Resizing -------"
-		  ); withoutResizing re =new withoutResizing(); w=re.isResizing(classes);
+		  ); withoutResizing re =new withoutResizing(); w=re.isResizing(classes,name);
 		  System.out.println("Detecting Image Passing by Intent"); 
 		  
 		  analysisIntent ai =
-		  new analysisIntent(cg,classes); a=ai.anaIntent(classes);
+		  new analysisIntent(cg,classes); a=ai.anaIntent(classes,name);
 		  
 		  System.out.println("Detecting Repeated Decoding Without Caching");
-		  repeatLoading rp = new repeatLoading(); r=rp.loopDecoding(classes);
+		  repeatLoading rp = new repeatLoading(); r=rp.loopDecoding(classes,name);
 		  
 		  
 		  
 		  
 		  System.out.println("Detecting Image Decoding in UI Thread"); decodingInUI ui
-		  = new decodingInUI(); u=ui.isDecodingInUI(classes);
+		  = new decodingInUI(); u=ui.isDecodingInUI(classes,name);
 		 
 
 		//cgReachability cr = new cgReachability();
